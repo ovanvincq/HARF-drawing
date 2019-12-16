@@ -15,7 +15,7 @@ The tab "Optimization" computes the pressures and the furnace temperature that a
 
 ### Installation
 
-The application has been designed with MATLAB R2019a and its optimization toolbox. It can be launch directly from the source code: the main file is *HARF_drawing.mlapp*. If you do not have this matlab version/toolbox, an installation file for windows 10 is provided in the release. 
+The application has been designed with MATLAB R2019a and its optimization toolbox. It can be launched directly from the source code: the main file is *HARF_drawing.mlapp*. If you do not have this matlab version/toolbox, an installation file for windows 10 is provided in the release. 
 
 ##### User manual
 
