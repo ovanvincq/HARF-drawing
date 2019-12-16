@@ -2,7 +2,7 @@
 
 ### Description
 
-This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
+This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
 
 1. Equation 3 has been modified as follow to take into account the fact that the black body radiation is a surface phenomenom and not a volume phenomenom:
    <img src="https://render.githubusercontent.com/render/math?math=\frac{\left(R_j^2-r_j^2\right)}{2}\rho c_p w \frac{dT}{dz}=R_j N \left(T_a-T\right)%2BR_j \sigma \alpha \left(T_a^4-T^4\right)">
