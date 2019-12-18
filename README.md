@@ -2,10 +2,10 @@
 
 ### Description
 
-This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
+This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
 
 1. Equation 3 has been modified as follow to take into account the fact that the black body radiation is a surface phenomenom and not a volume phenomenom:
-   <img src="https://render.githubusercontent.com/render/math?math=\frac{\left(R_j^2-r_j^2\right)}{2}\rho c_p w \frac{dT}{dz}=R_j N \left(T_a-T\right)+R_j \sigma \alpha \left(T_a^4-T^4\right)">
+   <img src="https://render.githubusercontent.com/render/math?math=\frac{\left(R_j^2-r_j^2\right)}{2}\rho c_p w \frac{dT}{dz}=R_j N \left(T_a-T\right)%2BR_j \sigma \alpha \left(T_a^4-T^4\right)">
 
 2. The viscosity model is based on a more recent paper [[2]](#2)
 
@@ -15,7 +15,7 @@ The tab "Optimization" computes the pressures and the furnace temperature that a
 
 ### Installation
 
-The application has been designed with MATLAB R2019a and its optimization toolbox. It can be launch directly from the source code: the main file is *HARF_drawing.mlapp*. If you do not have this matlab version/toolbox, an executable file is supplied for windows 10 but you have to download and install the free [MATLAB runtime for R2019a](http://www.mathworks.com/products/compiler/mcr/index.html). 
+The application has been designed with MATLAB R2019a and its optimization toolbox. It can be launched directly from the source code: the main file is *HARF_drawing.mlapp*. If you do not have this matlab version/toolbox, an installation file for windows 10 is provided in the release. 
 
 ##### User manual
 
