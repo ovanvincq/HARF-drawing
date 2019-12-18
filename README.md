@@ -13,7 +13,7 @@ This application allows to compute the drawing parameters to realize a tubular h
 
 The tab "Direct computation" computes the evolution of all the structural fiber parameters during the drawing process with the input chosen by the user.
 
-The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber with a given preform.
+The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber from a given preform.
 
 ### Installation
 
