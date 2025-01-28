@@ -6,14 +6,11 @@
 
 This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
 
-1. Equation 3 has been modified as follow to take into account the fact that the black body radiation is a surface phenomenom and not a volume phenomenom:
-   $\frac{\left(R_j^2-r_j^2\right)}{2}\rho c_p w \frac{dT}{dz}=R_j N \left(T_a-T\right)+R_j \sigma \alpha \left(T_a^4-T^4\right)$
-
-2. The viscosity model is based on a more recent paper [[2]](#2)
-
 The tab "Direct computation" computes the evolution of all the structural fiber parameters during the drawing process with the input chosen by the user.
 
 The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber from a given preform.
+
+The tab "Parameters" (in v1.3) allows to modify the materials properties that can depends on the temperature.
 
 ### Installation
 
@@ -51,5 +48,3 @@ List of the parameters used in the program :
 ### References
 
 <a id="1">[1]</a> [Gregory T. Jasion, John R. Hayes, Natalie V. Wheeler, Yong Chen, Thomas D. Bradley, David J. Richardson, and Francesco Poletti "Fabrication of tubular anti-resonant hollow core fibers : modelling, draw dynamics and process optimization", Opt. Express, 27(15) :20567-20582, 2019.](https://doi.org/10.1364/OE.27.020567)
-
-<a id="1">[2]</a> [A. Kondratiev and A.V. Khvan "Analysis of viscosity equations relevant to silicate melts and glasses",Journal of Non-Crystalline Solids, 432 :366-383, 2016.](https://doi.org/10.1016/j.jnoncrysol.2015.10.033)
