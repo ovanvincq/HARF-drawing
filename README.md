@@ -6,11 +6,9 @@
 
 This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
 
-The tab "Direct computation" computes the evolution of all the structural fiber parameters during the drawing process with the input chosen by the user.
-
-The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber from a given preform.
-
-The tab "Parameters" (in v1.3) allows to modify the materials properties that can depends on the temperature.
+- The tab "Direct computation" computes the evolution of all the structural fiber parameters during the drawing process with the input chosen by the user.
+- The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber from a given preform.
+- The tab "Parameters" (in v1.3) allows to modify the materials properties that can depends on the temperature.
 
 ### Installation
 
