@@ -4,11 +4,17 @@
 
 ### Description
 
-This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with two minor corrections:
+This application allows to compute the drawing parameters to realize a tubular hollow-core optical fiber. 
 
+The method used in this software is that described in the paper of Jasion *et al.* [[1]](#1) with a minor corrections: equation 3 has been modified as follow to take into account the fact that the black body radiation is a surface phenomenom and not a volume phenomenom.
+
+<h3 align="center">
+ $\frac{\left(R_j^2-r_j^2\right)}{2}\rho c_p w \frac{dT}{dz}=R_j N \left(T_a-T\right)+R_j \sigma \left(\alpha(T_a)T_a^4-\alpha(T)T^4\right)$
+</h3>
+ 
 - The tab "Direct computation" computes the evolution of all the structural fiber parameters during the drawing process with the input chosen by the user.
 - The tab "Optimization" computes the pressures and the furnace temperature that allow to obtain a target fiber from a given preform.
-- The tab "Parameters" (in v1.3) allows to modify the materials properties that can depends on the temperature.
+- The tab "Parameters" (version >1.3) allows to modify the materials properties that can depends on the temperature.
 
 ### Installation
 
