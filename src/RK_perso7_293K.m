@@ -11,6 +11,7 @@ function dydt = RK_perso7_293K(param,t,y,Pcore,DeltaP)
     R=sqrt(R2w./w);
     r=sqrt(r2w./w);
     mu=param.viscosity(T);
+    mu_1=param.viscosity_1(T);
     dwdz=tau/(3*pi*mu*(R^2-r^2));
     Rc=sqrt(Rc2w./w);
     rc=sqrt(rc2w./w);
@@ -20,7 +21,7 @@ function dydt = RK_perso7_293K(param,t,y,Pcore,DeltaP)
     dydt(4)=dydt(3);
     %dydt(5)=(R*param.N*(Ta-T)*2/(R^2-r^2)+param.sigma*param.alpha(T)*(Ta^4-T^4))/(param.rho(T)*param.Cp(T)*w);
     dydt(5)=(R*param.N*(Ta-T)+R*param.sigma*(param.alpha(Ta)*Ta^4-param.alpha(T)*T^4))*2/(R^2-r^2)/(param.rho(T)*param.Cp(T)*w);
-    dydt(6)=(DeltaP*rc^2*Rc^2-param.gamma(T)*rc*Rc*(rc+Rc))/(mu*(Rc^2-rc^2));         
+    dydt(6)=(DeltaP*rc^2*Rc^2-param.gamma_1(T)*rc*Rc*(rc+Rc))/(mu_1*(Rc^2-rc^2));         
     dydt(7)=dydt(6);
 end
 
